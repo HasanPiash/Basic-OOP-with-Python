@@ -20,5 +20,6 @@ class Monkey(Animal):
     def move(self):
         print('Hanging on the branches')
 
+
 layka = Monkey('lucky')
 layka.eat()
