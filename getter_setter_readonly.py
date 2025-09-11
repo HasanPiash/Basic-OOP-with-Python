@@ -1,4 +1,4 @@
-# read only --> you can not set the value. value can not be changed
+# read only --> you can not set the value. value can not be changed 
 # getter --> get a value of a property through a method. Most of the time, you will get the value of a private attribute.
 # setter --> set a value of a property through a method. Most of the time, you will set the value of a private property.
 
