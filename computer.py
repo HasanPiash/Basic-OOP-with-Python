@@ -14,6 +14,7 @@ class HardDrive:
 # computer has a cpu
 # computer has a ram
 # computer has a hard drive
+
 class Computer:
     def __init__(self, cores, ram_size, hd_capacity) -> None:
         self.cpu = CPU(cores)
