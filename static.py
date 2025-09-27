@@ -35,4 +35,5 @@ Shopping.hudai_dekhi('Lungi')
 #static method
 Shopping.multiply(4,6) 
 
+
 # basundara.multiply(6,9)
