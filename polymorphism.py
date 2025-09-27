@@ -30,7 +30,6 @@ class Goat(Animal):
         print('beh beh beh')
 
     
-
 don = Cat('Real Don')
 don.make_sound()
 
