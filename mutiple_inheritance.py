@@ -11,6 +11,7 @@ class Sports:
     def __init__(self, game) -> None:
         self.game = game
 
+
 class Student(Family, School, Sports):
     def __init__(self, address, id, level, game) -> None:
         School.__init__(self, id, level)
