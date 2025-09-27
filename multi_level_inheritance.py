@@ -34,6 +34,5 @@ class ACBus(Bus):
         print(f'{self.seat}')
         return super().__repr__()
 
-
 green_line = ACBus('green', 5000000, 22, 16)
 print(green_line)
