@@ -1,6 +1,7 @@
 import math
 import time
 def timer(func):
+    
     def inner(*args, **kwargs):
         print('time started')
         start = time.time()
