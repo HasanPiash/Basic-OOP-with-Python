@@ -15,4 +15,5 @@ class DerivedClass(BaseClass):
 3. Multiple inheritance: Student (Family, School, Sports)
 
 4. Hybrid: Granda --> Father, Uncle, Aunty --> Child (Father, Uncle)
+
 """
