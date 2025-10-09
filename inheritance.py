@@ -11,8 +11,6 @@ class Dog(Animal):
 class Tiger(Animal):
     pass
 
-
-
 class Furniture:
     pass
 
