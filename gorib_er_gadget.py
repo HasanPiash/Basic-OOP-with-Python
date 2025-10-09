@@ -1,4 +1,5 @@
 class Laptop:
+    
     def __init__(self, brand, price, color, memory) -> None:
         self.brand = brand
         self.price = price
