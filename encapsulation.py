@@ -19,7 +19,6 @@ class Bank:
             return amount
         else:
             return f'Forkia taka nai'
-
 rafsun = Bank('Choooto bro', 10000)
 
 print(rafsun.holder_name)
