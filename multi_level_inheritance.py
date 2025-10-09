@@ -16,7 +16,7 @@ class Bus(Vehicle):
 
     def __repr__(self) -> str:
         return super().__repr__()
-
+ 
 class Truck(Vehicle):
     def __init__(self, name, price, weight) -> None:
         self.weight = weight
