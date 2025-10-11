@@ -6,6 +6,7 @@ class Singleton:
     def __init__(self) -> None:
         if Singleton.__instance is None:
             Singleton.__instance = self
+            
         else:
             raise Exception('This is Singleton. Already have an instance, use that one by calling get_instance method')
     
