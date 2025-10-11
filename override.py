@@ -39,7 +39,6 @@ class Cricketer(Person):
     def __gt__(self, other):
         return self.age > other.age
 
-
 sakib = Cricketer('sakib', 38, 68, 91, 'BD')
 mushi = Cricketer('mushi', 36, 65, 78, 'BD')
 # sakib.eat()
