@@ -12,7 +12,6 @@ class Physics(Book):
         print('reading physics vector chapter')
 
 topon = Physics('topon', True)
-
 print(issubclass(Physics, Book))
 print(isinstance(topon, Physics))
 print(isinstance(topon, Book))
