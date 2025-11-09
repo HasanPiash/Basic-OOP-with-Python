@@ -1,6 +1,6 @@
 # inheritance vs composition
 
-class CPU:
+class CPU: 
     def __init__(self, cores) -> None:
         self.cores = cores
 
