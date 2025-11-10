@@ -10,7 +10,7 @@ class Company:
         self.manager =[]
         self.supervisors=[]
         self.fare = []
-        
+         
 
 class Driver:
     def __init__(self, name, license, age) -> None:
