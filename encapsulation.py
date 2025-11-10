@@ -6,7 +6,7 @@ class Bank:
         self.holder_name = holder_name # public attribute
         self._branch = 'banani 11' # protected 
         self.__balance = initial_deposit # private
-
+ 
     def deposit(self, amount):
         self.__balance += amount
 
