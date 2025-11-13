@@ -15,7 +15,7 @@ def do_something(work):
     # print(work)
     work()
     print('work ended')
-
+ 
 # do_something(2)
 # do_something('ami busy')
 def coding():
