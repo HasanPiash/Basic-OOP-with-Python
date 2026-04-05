@@ -9,7 +9,7 @@ class Animal(ABC):
     @abstractmethod
     def move(self):
         pass
-
+    
 class Monkey(Animal):
     def __init__(self, name) -> None:
         self.category = 'Monkey'
@@ -23,3 +23,4 @@ class Monkey(Animal):
 
 layka = Monkey('lucky')
 layka.eat()
+   
