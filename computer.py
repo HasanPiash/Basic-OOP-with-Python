@@ -1,13 +1,13 @@
 # inheritance vs composition
-
+   
 class CPU: 
     def __init__(self, cores) -> None:
         self.cores = cores
-
+   
 class RAM:
-    def __init__(self, size) -> None:
+    def __init__(self, size) -> None: 
         self.size = size
-
+    
 class HardDrive:
     def __init__(self, capacity) -> None:
         self.capacity = capacity
