@@ -1,15 +1,15 @@
 # encapsulation --> hide details
 # access modifier: public, protected, private
-
+     
 class Bank:
     def __init__(self, holder_name, initial_deposit) -> None:
         self.holder_name = holder_name # public attribute
         self._branch = 'banani 11' # protected 
         self.__balance = initial_deposit # private
- 
+     
     def deposit(self, amount):
         self.__balance += amount
-
+   
     def get_balance(self):
         return self.__balance
     
