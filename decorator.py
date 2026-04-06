@@ -11,9 +11,9 @@ def timer(func):
         end = time.time()
         print(f'total time taken{end-start}')
     return inner
- 
+    
 # timer()()
-
+    
 @timer
 def get_factorial(n):
     print('factorial starting')
