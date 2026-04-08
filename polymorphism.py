@@ -40,7 +40,8 @@ mess = Goat('L M')
 mess.make_sound()
     
 less = Goat('gora gori')
-    
+
+
 animals = [don, shepard, mess, less]
 for animal in animals:
     animal.make_sound()
