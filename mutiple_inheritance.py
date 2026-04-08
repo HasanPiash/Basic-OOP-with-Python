@@ -1,7 +1,8 @@
 class Family:
     def __init__(self, address) -> None:
         self.address = address
-    
+
+
 class School:
     def __init__(self, id, level) -> None:
         self.id = id   
