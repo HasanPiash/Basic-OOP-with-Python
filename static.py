@@ -2,27 +2,30 @@
 # static method @staticmethod
 # class method @classmethod
 # differences between static method and class method
-
+    
 class Shopping:
     cart = [] #class attribute #static attribute
     origin = 'china'
-    
+       
     def __init__(self, name, location) -> None:
         self.name = name  # instance attribute
-        self.location = location
-    
+        self.location = location   
+       
     def purchase(self, item, price, amount):
         remaining = amount - price
+        
         print(f'buying: {item} for price: {price} and remaining: {remaining}')
 
     @staticmethod
     def multiply(a, b):
         result = a*b
+        
         print(result)
 
     @classmethod
     def hudai_dekhi(self, item):
         print(self.name)
+        
         print('hudai dekhi kintu kinmu just ac er hawa khaite aschi', item)
 
 
