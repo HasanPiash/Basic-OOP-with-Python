@@ -1,7 +1,6 @@
 import math
 import time
 def timer(func):
-    
     def inner(*args, **kwargs):
         print('time started')
         start = time.time()
@@ -13,7 +12,6 @@ def timer(func):
     return inner
     
 # timer()()
-    
 @timer
 def get_factorial(n):
     print('factorial starting')
