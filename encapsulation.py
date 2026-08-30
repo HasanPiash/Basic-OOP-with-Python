@@ -19,6 +19,7 @@ class Bank:
             return amount
         else:
             return f'Forkia taka nai'
+             
 rafsun = Bank('Choooto bro', 10000)
 
 print(rafsun.holder_name)
@@ -28,5 +29,4 @@ print(rafsun.get_balance())
 print(rafsun.holder_name)
 # print(rafsun._branch)
 # print(dir(rafsun))
-
 print(rafsun._Bank__balance)
