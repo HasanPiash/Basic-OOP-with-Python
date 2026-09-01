@@ -26,7 +26,6 @@ class User:
         self.__money += value
 
 samsu = User('Kopa', 21, 12000)
-
 # print(samsu.__money)
 # print(samsu.age()) 
 print(samsu.age)
