@@ -1,5 +1,4 @@
-class Laptop:    
-     
+class Laptop:     
     def __init__(self, brand, price, color, memory) -> None:
         self.brand = brand
         self.price = price
@@ -7,8 +6,7 @@ class Laptop:
         self.memory = memory 
      
     def run(self):
-        return f'Running laptop: {self.brand}'
-       
+        return f'Running laptop: {self.brand}'  
     def coding(self):
         return f'learning python and practicing'
     
@@ -21,7 +19,7 @@ class Phone:
     
     def run(self):
         return f'phone tipa tipi kore'
-    
+
     def phone_call(self, number, text):
         return f'Sending SMS to: {number} with: {text}'
 
@@ -38,5 +36,3 @@ class Camera:
     def change_lens(self):
         pass
 
-
-# 
