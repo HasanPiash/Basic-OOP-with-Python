@@ -1,5 +1,4 @@
-# function is a first class object
-    
+# function is a first class object  
 def double_decker():
     print('starting the double decker')
     def inner_fun():
@@ -7,7 +6,7 @@ def double_decker():
         return 3000
     return inner_fun
       
-# print(double_decker())   
+# print(double_decker())    
 # print(double_decker()())
     
 def do_something(work):
@@ -24,5 +23,6 @@ def coding():
 # do_something(coding)
 def sleeping():
     print('sleeping and dreaming in python')
+
 
 do_something(sleeping)
