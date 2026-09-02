@@ -1,6 +1,5 @@
-# inheritance provides you "is a" relation
-    
-class Animal: 
+# inheritance provides you "is a" relation    
+class Animal:
     pass
     
 # Dog is a animal
