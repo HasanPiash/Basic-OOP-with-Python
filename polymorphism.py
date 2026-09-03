@@ -1,5 +1,5 @@
 # poly --> many (multiple)
-# morph --> shape
+# morph --> shape 
      
 class  Animal:
     def __init__(self, name) -> None:
@@ -28,8 +28,7 @@ class Goat(Animal):
        
     def make_sound(self):
         print('beh beh beh')
-
-       
+     
 don = Cat('Real Don')
 don.make_sound()
     
@@ -40,7 +39,6 @@ mess = Goat('L M')
 mess.make_sound()
     
 less = Goat('gora gori')
-
 
 animals = [don, shepard, mess, less]
 for animal in animals:
