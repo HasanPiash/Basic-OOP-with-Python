@@ -1,7 +1,7 @@
 class Person:
     def __init__(self, name, age, height, weight) -> None:
         self.name = name
-        self.age = age
+        self.age = age 
         self.height = height
         self.weight = weight
      
@@ -16,7 +16,6 @@ class Cricketer(Person):
         self.team = team
         super().__init__(name, age, height, weight)
 
-    
     # override
     def eat(self):
         print('vegetables')
@@ -44,7 +43,6 @@ sakib = Cricketer('sakib', 38, 68, 91, 'BD')
 mushi = Cricketer('mushi', 36, 65, 78, 'BD')
 # sakib.eat()
 # sakib.exercise()
-
 
 # plus sign overload
 print(45 + 63)
