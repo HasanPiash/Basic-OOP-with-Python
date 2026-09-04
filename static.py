@@ -19,6 +19,7 @@ class Shopping:
     def multiply(a, b):
         result = a*b
         print(result)
+        
     @classmethod
     def hudai_dekhi(self, item):
         print(self.name)
