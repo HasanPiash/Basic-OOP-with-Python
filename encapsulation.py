@@ -1,7 +1,7 @@
 # encapsulation --> hide details
 # access modifier: public, protected, private
      
-class Bank:
+class Bank: 
     def __init__(self, holder_name, initial_deposit) -> None:
         self.holder_name = holder_name # public attribute
         self._branch = 'banani 11' # protected 
@@ -13,7 +13,7 @@ class Bank:
     def get_balance(self):
         return self.__balance
     
-    def withdraw(self, amount):
+    def withdraw(self, amount): 
         if amount < self.__balance:
             self.__balance = self.__balance - amount
             return amount
@@ -21,7 +21,6 @@ class Bank:
             return f'Forkia taka nai'
              
 rafsun = Bank('Choooto bro', 10000)
-
 print(rafsun.holder_name)
 rafsun.holder_name = 'boro vai'
 rafsun.deposit(40000)
