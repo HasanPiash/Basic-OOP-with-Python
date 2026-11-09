@@ -1,5 +1,5 @@
 # Ena Poribohon 
-class Company:
+class Company: 
     def __init__(self, name, address, ) -> None:
         self.name = name
         self.bus = []
@@ -19,14 +19,14 @@ class Driver:
 class Counter:
     def __init__(self) -> None:
         pass
+        
     def purchase_a_ticket(self, start, destination):
         pass
    
-class Passenger:
+class Passenger: 
     pass
   
-class Supervisor:
+class Supervisor: 
     pass
 
 red_mia = Driver('a', '123',32)
-
