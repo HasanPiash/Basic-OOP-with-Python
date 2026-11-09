@@ -1,7 +1,7 @@
 # inheritance vs composition
 class CPU: 
     def __init__(self, cores) -> None:
-        self.cores = cores
+        self.cores = cores 
    
 class RAM:
     def __init__(self, size) -> None: 
@@ -10,7 +10,6 @@ class RAM:
 class HardDrive:
     def __init__(self, capacity) -> None:
         self.capacity = capacity
-
 # computer has a cpu
 # computer has a ram
 # computer has a hard drive
@@ -21,3 +20,4 @@ class Computer:
         self.hard_disc = HardDrive(hd_capacity)
 
 mac = Computer(8, 16, 512)
+
