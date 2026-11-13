@@ -1,9 +1,10 @@
 # base class, parent class
-class BaseClass: 
+class BaseClass:
     pass   
-         
+
+
 # derived class or child class
-class DerivedClass(BaseClass):
+class DerivedClass(BaseClass): 
     pass
          
 """
@@ -16,4 +17,5 @@ class DerivedClass(BaseClass):
 4. Hybrid: Granda --> Father, Uncle, Aunty --> Child (Father, Uncle)
 
 """
- 
+
+
