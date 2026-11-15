@@ -1,4 +1,4 @@
-class Person: 
+class Person:
     def __init__(self, name, age, height, weight) -> None:
         self.name = name
         self.age = age 
@@ -8,8 +8,9 @@ class Person:
         print('vat mangso polau korma')
     def exercise(self):
         raise NotImplementedError
-     
-class Cricketer(Person):
+
+
+class Cricketer(Person): 
     def __init__(self, name, age, height, weight, team) -> None:
         self.team = team
         super().__init__(name, age, height, weight)
@@ -34,6 +35,7 @@ class Cricketer(Person):
     # > operator overload
     def __gt__(self, other):
         return self.age > other.age
+
 
 sakib = Cricketer('sakib', 38, 68, 91, 'BD')
 mushi = Cricketer('mushi', 36, 65, 78, 'BD')
