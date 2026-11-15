@@ -6,25 +6,28 @@ class  Animal:
         
     def make_sound(self):
         print('animal making some sound')
-    
+
+
 class Cat(Animal): 
     def __init__(self, name) -> None:
         super().__init__(name)     
     def make_sound(self):
         print('meow meow')
-     
-class Dog(Animal):
+   
+class Dog(Animal): 
     def __init__(self, name) -> None:
         super().__init__(name)
     def make_sound(self):
         print('gheu gheu')
-   
+
+
 class Goat(Animal):
     def __init__(self, name) -> None:
         super().__init__(name)   
     def make_sound(self):
         print('beh beh beh')
-     
+
+
 don = Cat('Real Don')
 don.make_sound()
 shepard = Dog('Local Shephard')
