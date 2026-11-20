@@ -2,7 +2,8 @@
 # static method @staticmethod
 # class method @classmethod
 # differences between static method and class method
-class Shopping:
+
+class Shopping: 
     cart = [] #class attribute #static attribute
     origin = 'china'
 
@@ -12,7 +13,6 @@ class Shopping:
        
     def purchase(self, item, price, amount):
         remaining = amount - price
-        
         print(f'buying: {item} for price: {price} and remaining: {remaining}')
 
     @staticmethod
@@ -24,13 +24,12 @@ class Shopping:
     def hudai_dekhi(self, item):
         print(self.name)
         print('hudai dekhi kintu kinmu just ac er hawa khaite aschi', item)
+
 basundara = Shopping('basu en dhara', 'not popular location')
 # basundara.purchase('lungi', 500, 1000)
 basundara.hudai_dekhi('lungi')
 # Shopping.purchase(2, 3, 3)
 Shopping.hudai_dekhi('Lungi')
-
 #static method
 Shopping.multiply(4,6) 
-
 # basundara.multiply(6,9)
